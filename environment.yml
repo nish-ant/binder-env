@@ -1,0 +1,32 @@
+name: ml4physim
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - attrs
+  - blas
+  - bottleneck
+  - debugpy
+  - h5py
+  - jupyterlab=4.0
+  - matplotlib
+  - nbgitpuller
+  - nbserverproxy
+  - nodejs
+  - nomkl
+  - numba
+  - numpy=1.26
+  - pandas=2.1
+  - pip
+  - pooch
+  - python=3.12
+  - python-graphviz
+  - scikit-learn=1.3
+  - scipy=1.11
+  - seaborn
+  - setuptools
+  - tqdm
+  - xarray
+  - pip:
+    - airfrans
+    - cython
